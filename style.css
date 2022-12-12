@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #3A4377;
+}
+
+.background-image{
+    background-image: url("/numbers.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.container {
+    position: absolute;
+    width: 50%;
+    height: 50vh;
+    min-width: 600px;
+    margin-top: 80px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    background-color: #EFEEF4;
+    padding: 0px 10px;
+    /* display:grid; */
+    justify-items: center;
+    text-align: center;
+}
+
+form {
+
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    min-width: 500px;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    border-radius: 5px;
+    background-color: #9289b7;
+    padding: 20px 10px;
+    justify-items: center;
+    display: inline;
+}
+
+.main{
+    justify-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main input[type=text]{
+    width: 200px;
+
+}
+
+.main button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px 10px;
+    background-color: #3A4377;
+}
+
+h2{
+    font-size: 60px;
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    color: #3A4377;
+}
+
+input[type=text]{
+    width: 120px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #3A4377;
+    margin-top: 20px;
+}
+
+ .btn, .btn2 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    background-color: #3A4377;
+    display: inline-block;
+
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.btn2:hover {
+    background-color: aqua;
+}
+
+
+p{
+   font-size: 40px;
+   margin-right: auto;
+   color: #ab77df;
+   text-align: left;
+}
+
+
+  @media screen and (min-width: 800px) {
+    .container {
+        top: 60%;
+        width: 880px;
+    }
+  }
+  @media screen and (min-width:  1400px) {
+    .container {
+         margin-top: 120px;
+         top: 55%;
+         width: 980px;
+    }
+  }
